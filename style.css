@@ -1,0 +1,16 @@
+/* style.css — minimal UI, canvas fills screen */
+* { box-sizing: border-box; }
+html, body { height:100%; margin:0; background:#000; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial; color:#ddd; }
+canvas { display:block; width:100vw; height:100vh; cursor: crosshair; }
+.hint {
+  position: fixed;
+  left: 14px;
+  bottom: 14px;
+  color: rgba(200,200,200,0.9);
+  font-size: 13px;
+  background: rgba(0,0,0,0.28);
+  padding: 8px 10px;
+  border-radius: 8px;
+  backdrop-filter: blur(6px);
+  pointer-events: none;
+}
